@@ -42,6 +42,11 @@ class MainActivity : AppCompatActivity() {
         val test2 = Test2()
         test2.interfaceMethod()
 
+        val objTest = ObjectTest
+        println("objTest = ${objTest}")
+        val testObj = TestObject()
+        testObj.interfaceMethod()
+
     }
 
     fun test(num:Int):String {
